@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.p {
+  display: grid;
+  margin-top: 50px;
+  margin-left: 100px;
+  grid-auto-rows: 90px;
+  grid-auto-columns: 160px;
+  grid-template-areas:
+    " a a b c c "
+    " a a b c c "
+    " d e f c c "
+    " d e f c c "
+    " g h h i j "
+    " g h h i j ";
+
+  gap: 15px 15px;
+}
+
+div.p > div.a {
+  grid-area: a;
+  border-radius: 8px;
+
+  border: 10px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+}
+
+div.p > div.a > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.b {
+  grid-area: b;
+  border-radius: 8px;
+
+  border: 8px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+}
+
+div.p > div.b > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.c {
+  grid-area: c;
+  border-radius: 8px;
+
+  border: 10px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+}
+div.p > div.c > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.d {
+  grid-area: d;
+  border: 8px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+
+  border-radius: 8px;
+}
+
+div.p > div.d > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.e {
+  grid-area: e;
+  border: 8px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+
+  border-radius: 8px;
+}
+div.p > div.e > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.f {
+  grid-area: f;
+  border: 8px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+
+  border-radius: 8px;
+}
+div.p > div.f > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.g {
+  grid-area: g;
+  border: 8px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+
+  border-radius: 8px;
+}
+div.p > div.g > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.h {
+  grid-area: h;
+  border: 10px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+
+  border-radius: 8px;
+}
+div.p > div.h > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.i {
+  grid-area: i;
+  border: 8px solid rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px green;
+  border-radius: 8px;
+}
+div.p > div.i > img {
+  width: 100%;
+  height: 100%;
+}
+
+div.p > div.j {
+  grid-area: j;
+  border: 8px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px green;
+
+}
+div.p > div.j > img {
+  width: 100%;
+  height: 100%;
+}
